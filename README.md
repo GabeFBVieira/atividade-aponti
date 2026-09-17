@@ -1,21 +1,74 @@
-Instruções: resolva os exercícios abaixo em um arquivo .ts. Quando o exercício pedir para observar um erro do TypeScript, não corrija o erro, apenas documente o que aconteceu em um comentário no código. 
+# Exercícios de TypeScript — Fundamentos
 
-1. Declare uma variável para cada tipo primitivo básico do TypeScript (string, number, boolean), atribuindo valores de sua escolha. 
+Atividade desenvolvida para praticar os conceitos básicos de **TypeScript**, incluindo tipos primitivos, estruturas condicionais, `switch`, loops e arrays.
 
-2. Tente declarar uma variável do tipo number e atribuir a ela um valor do tipo string (ex: "vinte"). O que o TypeScript acusa? Anote o erro em comentário. 
+## Conteúdos praticados
 
-3. Crie uma variável idade: number e escreva uma estrutura condicional (if/else) que exiba "Maior de idade" se for maior ou igual a 18, e "Menor de idade" caso contrário. 
+* Tipos primitivos:
 
-4. Crie uma variável nota: number e utilize if / else if / else para classificar a nota em "Aprovado" (nota >= 7), "Recuperação" (nota >= 5 e < 7) ou "Reprovado" (nota < 5). 
+  * `string`
+  * `number`
+  * `boolean`
+* Tipagem de variáveis
+* Erros de tipagem do TypeScript
+* Estruturas condicionais:
 
-5. Crie uma variável diaDaSemana: number (1 a 7) e utilize um switch para exibir o nome do dia correspondente. 
+  * `if`
+  * `else if`
+  * `else`
+* Estrutura `switch`
+* Loop `for`
+* Loop `while`
+* Loop `for...of`
+* Arrays
+* Operador módulo (`%`)
+* Classificação de números pares e ímpares
 
-6. Utilize um loop for para exibir no console os números de 1 a 10. 
+## Exercícios
 
-7. Utilize um loop while para exibir apenas os números pares entre 1 e 20. 
+A atividade contém 10 exercícios:
 
-8. Crie um array numeros: number[] com pelo menos 5 valores e utilize um loop for...of para somar todos os elementos, exibindo o total ao final. 
+1. Declaração de variáveis utilizando os tipos `string`, `number` e `boolean`.
+2. Demonstração de um erro de tipagem ao atribuir uma `string` a uma variável `number`.
+3. Verificação de maioridade utilizando `if/else`.
+4. Classificação de notas em Aprovado, Recuperação ou Reprovado.
+5. Utilização de `switch` para identificar o dia da semana.
+6. Utilização de `for` para exibir os números de 1 a 10.
+7. Utilização de `while` para exibir números pares de 1 a 20.
+8. Soma dos elementos de um array utilizando `for...of`.
+9. Exibição dos números ímpares entre 1 e 15.
+10. Desafio envolvendo array, loop e classificação de números pares e ímpares.
 
-9. Utilize um loop for combinado com uma condicional para exibir apenas os números ímpares entre 1 e 15. 
+## Como executar
 
-10. Desafio: combine tudo o que foi visto — crie um array de números, percorra com um loop e, para cada número, utilize uma condicional para classificá-lo como "par" ou "ímpar", exibindo o resultado no console.
+É necessário ter o **Node.js** e o **TypeScript** instalados.
+
+Para instalar o TypeScript:
+
+```bash
+npm install -g typescript
+```
+
+Para verificar a instalação:
+
+```bash
+tsc --version
+```
+
+Para compilar o arquivo TypeScript:
+
+```bash
+tsc atividade.ts
+```
+
+Depois da compilação, será gerado um arquivo JavaScript que pode ser executado com:
+
+```bash
+node atividade.js
+```
+
+## Observação
+
+No exercício 2, o erro de tipagem solicitado pelo exercício foi **mantido propositalmente no código** e documentado em um comentário, conforme as instruções da atividade.
+
+---
